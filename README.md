@@ -45,7 +45,22 @@ I'm a developer focused on building practical, scalable web applications.
 ## 📌 Featured Projects
 
 ### 🏢 ERP / Business Management System
-A modular ERP system covering inventory, procurement, catalogue, project, CRM, and production workflows.
+A production-grade, multi-tenant ERP platform serving real clients — built on a modern **microservice + microfrontend** architecture powered by the Cloudflare ecosystem.
+
+**Architecture highlights:**
+- ⚙️ **Microservices** backend with Java Spring Boot, orchestrated via an API Gateway
+- 🌐 **Microfrontend** architecture with Next.js, enabling independent deployment per module
+- ☁️ **Cloudflare-native** infrastructure: Workers, D1 (edge SQL), KV (edge cache), Hono.js for lightweight edge services
+- 🔐 **Better Auth** integration with role-based access control per tenant
+- 🏗️ **Multi-tenant** design — isolated data and configurations per organization
+
+**Business modules covered:**
+- 📦 Inventory & Warehouse Management
+- 🛒 Procurement & Purchase Orders
+- 📁 Product Catalogue
+- 📋 Project Management
+- 🤝 CRM & Customer Management
+- 🏭 Production & Manufacturing Workflows
 
 ### ✍️ AI Story Platform
 https://hontruyen.com
